@@ -1,0 +1,28 @@
+### Request Predict
+POST http://localhost:5001/predict HTTP/1.1
+content-type: application/json
+
+[
+    {
+        "idade": 45, 
+        "genero": "M", 
+        "colesterol": 240,
+        "pressao_arterial": 120, 
+        "acucar_sangue": 110, 
+        "historico_familiar": "N", 
+        "historico_tabagismo": "S",
+        "consumo_alcool": "S", 
+        "hipertensao": "N"
+    },
+    {
+        "idade": 46, 
+        "genero": "F", 
+        "colesterol": 240,
+        "pressao_arterial": 120, 
+        "acucar_sangue": 110, 
+        "historico_familiar": "N", 
+        "historico_tabagismo": "S",
+        "consumo_alcool": "S", 
+        "hipertensao": "N"
+    }
+]

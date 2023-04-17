@@ -1,0 +1,104 @@
+### Request Training
+POST http://localhost:5000/training HTTP/1.1
+content-type: application/json
+
+[
+    {
+        "id": 1, 
+        "paciente_id": 1, 
+        "idade": 45, 
+        "genero": "M", 
+        "colesterol": 200,
+        "pressao_arterial": 120, 
+        "acucar_sangue": 110, 
+        "historico_familiar": "N", 
+        "historico_tabagismo": "S",
+        "consumo_alcool": "S", 
+        "hipertensao": "N", 
+        "risco_cardiovascular": 1
+    },
+    {
+        "id": 2, 
+        "paciente_id": 2, 
+        "idade": 62, 
+        "genero": "F", 
+        "colesterol": 180,
+        "pressao_arterial": 118, 
+        "acucar_sangue": 100, 
+        "historico_familiar": "S", 
+        "historico_tabagismo": "N",
+        "consumo_alcool": "N", 
+        "hipertensao": "N", 
+        "risco_cardiovascular": 0
+    },
+    {
+        "id": 3, 
+        "paciente_id": 3, 
+        "idade": 50, 
+        "genero": "M", 
+        "colesterol": 220,
+        "pressao_arterial": 130, 
+        "acucar_sangue": 120, 
+        "historico_familiar": "N", 
+        "historico_tabagismo": "N",
+        "consumo_alcool": "N", 
+        "hipertensao": "N", 
+        "risco_cardiovascular": 1
+    },
+    {
+        "id": 4, 
+        "paciente_id": 4, 
+        "idade": 68, 
+        "genero": "F", 
+        "colesterol": 250,
+        "pressao_arterial": 140, 
+        "acucar_sangue": 130, 
+        "historico_familiar": "S", 
+        "historico_tabagismo": "N",
+        "consumo_alcool": "N", 
+        "hipertensao": "S", 
+        "risco_cardiovascular": 1
+    },
+    {
+        "id": 5, 
+        "paciente_id": 5, 
+        "idade": 55, 
+        "genero": "M", 
+        "colesterol": 175,
+        "pressao_arterial": 128, 
+        "acucar_sangue": 95, 
+        "historico_familiar": "S", 
+        "historico_tabagismo": "S",
+        "consumo_alcool": "S", 
+        "hipertensao": "N", 
+        "risco_cardiovascular": 0
+    },
+    {
+        "id": 6, 
+        "paciente_id": 6, 
+        "idade": 30, 
+        "genero": "F", 
+        "colesterol": 160,
+        "pressao_arterial": 110, 
+        "acucar_sangue": 90, 
+        "historico_familiar": "N", 
+        "historico_tabagismo": "N",
+        "consumo_alcool": "N", 
+        "hipertensao": "N", 
+        "risco_cardiovascular": 0
+    },
+    {
+        "id": 7, 
+        "paciente_id": 7, 
+        "idade": 50, 
+        "genero": "F", 
+        "colesterol": 170,
+        "pressao_arterial": 120, 
+        "acucar_sangue": 105, 
+        "historico_familiar": "N", 
+        "historico_tabagismo": "N",
+        "consumo_alcool": "N", 
+        "hipertensao": "N", 
+        "risco_cardiovascular": 1
+    }
+]
